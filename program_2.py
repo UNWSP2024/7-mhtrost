@@ -17,12 +17,9 @@ def main():
     print(larger_numbers)
 
 def display_larger_than_n_list(n, n_list):
-    larger_list = []
-
     for value in n_list:
         if value > n:
-            larger_list.append(value)
-    return larger_list
+            print(value)
 
 if __name__ == '__main__':
     main()
